@@ -1,0 +1,49 @@
+.resume {
+  padding: 20px;
+  color: #333;
+  text-align: center;
+  min-height: auto; /* Ensure the section is only as tall as its content */
+  margin: 0; /* Remove any extra margin */
+  background-color: inherit; /* Inherit background color from body */
+}
+
+.resume h2 {
+  font-size: 2rem;
+  color: inherit; /* Inherit text color from body */
+  margin-bottom: 20px;
+}
+
+.resume p {
+  font-size: 1.2rem;
+  color: inherit; /* Inherit text color from body */
+  margin-bottom: 20px;
+}
+
+.hire-me-button {
+  background-color: #FFD700; /* Yellow for light mode */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.hire-me-button:hover {
+  background-color: #FFC107; /* Darker yellow on hover */
+  transform: scale(1.1);
+}
+
+.hire-me-button:active {
+  transform: scale(0.9);
+}
+
+body.dark-mode .hire-me-button {
+  background-color: #FFD700; /* Gold for dark mode */
+  color: #333;
+}
+
+body.dark-mode .hire-me-button:hover {
+  background-color: #FFC107; /* Darker gold on hover */
+}

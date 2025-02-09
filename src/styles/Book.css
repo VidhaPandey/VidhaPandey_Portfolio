@@ -1,0 +1,121 @@
+.book {
+  background-color: #fff;
+  border: 2px solid #000080; /* Navy blue */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.book-content {
+  text-align: left;
+}
+
+.book-content h2 {
+  color: #000080; /* Navy blue */
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.book-content p {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.book-content h3 {
+  color: #000080; /* Navy blue */
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.book-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.book-content ul li {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.book-content ul li a {
+  color: #000080; /* Navy blue */
+  text-decoration: none;
+}
+
+.book-content ul li a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body.dark-mode .book {
+  background-color: #161b22;
+  border-color: #FFDB58; /* Mustard color */
+}
+
+body.dark-mode .book-content h2,
+body.dark-mode .book-content h3 {
+  color: #FFDB58; /* Mustard color */
+}
+
+body.dark-mode .book-content p,
+body.dark-mode .book-content ul li {
+  color: #c9d1d9;
+}
+
+body.dark-mode .book-content ul li a {
+  color: #FFDB58; /* Mustard color */
+}
+
+body.dark-mode .book-content ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Heatmap colors */
+.color-empty {
+  fill: #ebedf0;
+}
+
+.color-github-1 {
+  fill: #add8e6; /* Light blue */
+}
+
+.color-github-2 {
+  fill: #87cefa; /* Sky blue */
+}
+
+.color-github-3 {
+  fill: #4682b4; /* Steel blue */
+}
+
+.color-github-4 {
+  fill: #000080; /* Navy blue */
+}
+
+body.dark-mode .color-github-1 {
+  fill: #000080; /* Navy blue */
+}
+
+body.dark-mode .color-github-2 {
+  fill: #4682b4; /* Steel blue */
+}
+
+body.dark-mode .color-github-3 {
+  fill: #87cefa; /* Sky blue */
+}
+
+body.dark-mode .color-github-4 {
+  fill: #add8e6; /* Light blue */
+}

@@ -1,0 +1,55 @@
+.contact {
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+  min-height: auto; /* Ensure the section is only as tall as its content */
+  margin: 0; /* Remove any extra margin */
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact ul li {
+  margin: 10px 20px;
+  font-size: 1.2rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.contact ul li img {
+  max-width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+body.dark-mode .contact {
+  background-color: #0d1117; /* Match the dark mode background color */
+  color: #c9d1d9;
+}
+
